@@ -1,0 +1,45 @@
+.about-container {
+  display: flex;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin: 5%;
+  
+}
+
+.about-me > p {
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+  margin-bottom: 10px; /* Adiciona margem na parte inferior de cada parágrafo */
+}
+
+.about-skills-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.technologies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: 5%
+}
+
+.technologies > div {
+ margin: 1.5%;
+ transition: transform 0.3s, margin 0.3s;
+}
+
+.technologies > div:hover {
+  transform: scale(1.2);
+}
+
+ 
+
+
