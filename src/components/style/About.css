@@ -8,7 +8,7 @@
 
 .about > p {
   font-size: 1.2rem;
-  margin-bottom: 2.5%;
+  margin-bottom: 4%;
 }
 
 
@@ -39,7 +39,7 @@
 
 .about-me > p {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
   margin-bottom: 10px; /* Adiciona margem na parte inferior de cada parágrafo */
 }
