@@ -6,21 +6,30 @@ function About() {
   return(
     <div className="about">
       <h1>Sobre mim</h1>
+      <p>
+        Aqui você encontrará mais informações sobre mim,<br />
+        o que faço e minhas habilidades atuais principalmente
+        em termos de programação e tecnologia.
+      </p>
+      
       <div className="about-header">
-      <h1>Sobre mim</h1>
+      <h1>Full-Stack</h1>
       <h1>Tecnologias</h1>
       </div>
       <div className="about-container">
         <section className="about-me">
       <p>
-        <strong>Desenvolvedor Web Full-Stack</strong> em formação pela Trybe,
-        apaixonado por tecnologia e em busca de minha primeira oportunidade no mercado.<br />
-        <strong>Tenho me especializado em tecnologias como JavaScript, React, Redux, CSS e HTML,
-        além de ter experiência em Jest e RTL para testes.</strong><br /> Ao longo dos meus estudos,
-        tenho buscado aprimorar minhas habilidades nessas áreas.<br />
-        <strong>Estou animado para colaborar em projetos desafiadores e
-        continuar aprendendo</strong> com profissionais experientes,
-        visando meu crescimento profissional no campo do desenvolvimento web.
+      <strong>Sou um desenvolvedor web full-stack</strong> em formação na Trybe,
+      em busca de minha primeira oportunidade no mercado.<br />
+      <strong>Tenho me especializado em tecnologias tanto para o front-end,
+      como JavaScript, React, Redux, Context API, CSS e HTML,
+      quanto para o back-end, como TypeScript, Node.js, Express.js,
+      MySQL, Sequelize e Docker. Possuo experiência em Jest e RTL para testes,
+      bem como Sinon, Mocha e Chai para testes de back-end.</strong><br />
+      Durante meus estudos, tenho trabalhado para aprimorar minhas habilidades nessas áreas.
+      <strong>Estou ansioso com a possibilidade de colaborar em projetos desafiadores
+      e continuar aprendendo com profissionais experientes.</strong>
+      Meu objetivo é crescer profissionalmente no campo do <strong>desenvolvimento web.</strong>
       </p>
         </section>
         <div className="technologies">
