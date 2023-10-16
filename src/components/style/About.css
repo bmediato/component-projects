@@ -1,5 +1,15 @@
+.about {
+  margin-top: 5.5%;
+}
+
 .about-container {
   display: flex;
+  width: 100%;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-around;
 }
 
 .about-me {
@@ -7,8 +17,9 @@
   flex-direction: column;
   justify-content: center;
   width: 40%;
-  margin: 5%;
-  
+  background-color: red;  
+  margin: 1% 5% 5% 5%;
+
 }
 
 .about-me > p {
@@ -28,7 +39,10 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 40%;
-  margin: 5%
+  background-color: red;
+  margin: 1% 5% 5% 5%;
+
+
 }
 
 .technologies > div {

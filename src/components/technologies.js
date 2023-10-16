@@ -1,20 +1,21 @@
-import Js from './images/javascript.png'
-import node from './images/node.png'
-import react from './images/react.png'
-import mocha from './images/mocha.png'
-import rtl from './images/rtl.png'
-import sinon from './images/sinon.png'
-import css from './images/css.png'
-import html from './images/html.png'
-import docker from './images/docker.png'
-import sequelize from './images/sequelize.png'
-import redux from './images/redux.png'
-import mysql from './images/mysqll.png'
-import ts from './images/ts.png'
-import chai from './images/chai.png'
-import git from './images/git.png'
-import api from  './images/api.png'
-
+import Js from './images-technologies/javascript.png'
+import node from './images-technologies/node.png'
+import react from './images-technologies/react.png'
+import mocha from './images-technologies/mocha.png'
+import rtl from './images-technologies/rtl.png'
+import sinon from './images-technologies/sinon.png'
+import css from './images-technologies/css.png'
+import html from './images-technologies/html.png'
+import docker from './images-technologies/docker.png'
+import sequelize from './images-technologies/sequelize.png'
+import redux from './images-technologies/redux.png'
+import mysql from './images-technologies/mysqll.png'
+import ts from './images-technologies/ts.png'
+import chai from './images-technologies/chai.png'
+import git from './images-technologies/git.png'
+import api from  './images-technologies/api.png'
+import jest from './images-technologies/jest.png'
+import express from './images-technologies/express.png'
 
 
 const technologies = [
@@ -24,11 +25,12 @@ const technologies = [
   { technology: 'CSS', image: css},
   { technology: 'React', image: react},
   { technology: 'RTL', image: rtl},
+  { technology: 'Jest', image: jest},
   { technology: 'Redux', image: redux},
   { technology: 'ContextAPi', image: react},
   { technology: 'Git', image: git},
   { technology: 'NodeJs', image: node},
-  { technology: 'Express.js', image: Js},
+  { technology: 'Express.js', image: express},
   { technology: 'Docker', image: docker},
   { technology: 'MySql', image: mysql},
   { technology: 'Sequelize', image: sequelize},

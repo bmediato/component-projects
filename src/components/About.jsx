@@ -4,11 +4,14 @@ import technologies from "./technologies";
 
 function About() {
   return(
-    <div>
+    <div className="about">
       <h1>Sobre mim</h1>
+      <div className="about-header">
+      <h1>Sobre mim</h1>
+      <h1>Tecnologias</h1>
+      </div>
       <div className="about-container">
         <section className="about-me">
-      <h2>Sobre</h2>
       <p>
         <strong>Desenvolvedor Web Full-Stack</strong> em formação pela Trybe,
         apaixonado por tecnologia e em busca de minha primeira oportunidade no mercado.<br />

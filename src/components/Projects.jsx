@@ -2,17 +2,18 @@ import React, { useEffect } from "react";
 import Card from "./Card"
 import './style/Projects.css'
 import './style/Transition.css'
-import imagem from './imagem.png'
+import imagem from './images-projects/imagem-recipes-app.png'
 
 function Projects() {
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       console.log(entries);
-      entries[0].target.classList.add('init-hidden-off');
+      entries[0].target.classList.add('init-hidden-off'); // aplica o off no hidden
     }, {
-      threshold: 0.5
+      threshold: 0.5 // Controlla em que posição da imagem usa o efeito (0.5 === meio da imagem)
     });
-    const elements = document.querySelectorAll('.individual-project.init-hidden');
+    // observa os elementos na pagina e quando encontra aplica a função acima
+    const elements = document.querySelectorAll('.individual-project.init-hidden'); 
     elements.forEach(element => {
       observer.observe(element);
     });
