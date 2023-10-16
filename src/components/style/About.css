@@ -7,6 +7,7 @@
 }
 
 .about > p {
+  font-size: 1.2rem;
   margin-bottom: 2.5%;
 }
 
@@ -23,6 +24,10 @@
   text-align: center;
 }
 
+.about-header > h2 {
+  font-size: 1.6rem;
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -34,7 +39,7 @@
 
 .about-me > p {
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
   margin-bottom: 10px; /* Adiciona margem na parte inferior de cada parágrafo */
 }

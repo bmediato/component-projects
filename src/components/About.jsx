@@ -8,13 +8,12 @@ function About() {
       <h1>Sobre mim</h1>
       <p>
         Aqui você encontrará mais informações sobre mim,<br />
-        o que faço e minhas habilidades atuais principalmente
-        em termos de programação e tecnologia.
+        o que faço e minhas habilidades atuais em programação e tecnologia.
       </p>
       
       <div className="about-header">
-      <h1>Full-Stack</h1>
-      <h1>Tecnologias</h1>
+      <h2>Desenvolvedor Full-Stack</h2>
+      <h2>Ferramentas e Tecnologias</h2>
       </div>
       <div className="about-container">
         <section className="about-me">
